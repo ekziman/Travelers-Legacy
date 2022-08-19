@@ -253,6 +253,7 @@ header .trip_bx .travel_bx .card .btn_city h5 span{
     height: auto;
     /* border: 1px solid #000; */
     margin: auto;
+    margin-top: -50px;
 }
 
 .offers h1 {
@@ -388,4 +389,66 @@ header .trip_bx .travel_bx .card .btn_city h5 span{
 }
 .offers .cards .card .cont_bx .days:hover{
     transform: rotate(360deg);
+}
+
+
+.destination {
+    width: 45%;
+    height: auto;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination .des_bx, .img_bx {
+    position: relative;
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+}
+.destination .des_bx h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+    line-height: 10px;
+    letter-spacing: 1px;
+}
+.destination .des_bx p {
+    font-size: 12px;
+}
+.destination .des_bx li{
+    list-style: none;
+    padding: 0px 0px 8px 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.destination .des_bx h6{
+    width: 250px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 20px 0p;
+}
+
+.destination .des_bx button{
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.destination .des_bx button:hover{
+    background: gray;
+    border: 2px solid gray;
+}
+
+.desitination .img_bx img{
+    width: 100%;
+    height: 420px;
+    border-radius: 5px;
 }
